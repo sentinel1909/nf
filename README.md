@@ -5,5 +5,5 @@ This is a simple CLI tool, written in Rust, which creates a new file in the same
 ## Usage:
 
 ```bash
-nf --name <filename>
+nf --file <filename>
 ```
