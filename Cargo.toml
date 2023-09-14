@@ -1,6 +1,6 @@
 [package]
 name = "nf"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2021"
 authors = ["Jeffery D. Mitchell", "<sentinel1909@jeff-mitchell.dev>"]
 description = "A CLI tool written in Rust which creates a single empty file"
@@ -14,3 +14,4 @@ categories = ["CLI"]
 
 [dependencies]
 clap = { version = "4.4.3", features = [ "derive" ] }
+color-eyre = "0.5"
