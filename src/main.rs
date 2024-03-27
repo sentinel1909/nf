@@ -14,6 +14,7 @@ struct Args {
     file: String,
 }
 
+// main function, program entry point
 fn main() -> Result<()> {
     // initialize color_eyre
     color_eyre::install()?;
